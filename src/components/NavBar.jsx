@@ -7,6 +7,9 @@ function NavBar() {
         <NavLink to="/" className='hover:text-amber-50 p-5 hover:bg-pink-200 rounded-2xl font-bold'>Home</NavLink>
         <NavLink to="register" className='hover:text-amber-50 p-5 hover:bg-pink-200 rounded-2xl font-bold'>Register</NavLink>
         <NavLink to="post" className='hover:text-amber-50 p-5 hover:bg-pink-200 rounded-2xl font-bold'>Post</NavLink>
+        <NavLink to="login" className='hover:text-amber-50 p-5 hover:bg-pink-200 rounded-2xl font-bold'>Login</NavLink>
+        <NavLink to="profile" className='hover:text-amber-50 p-5 hover:bg-pink-200 rounded-2xl font-bold'>Profile</NavLink>
+        <NavLink to="token-profile" className='hover:text-amber-50 p-5 hover:bg-pink-200 rounded-2xl font-bold'>Token Profile</NavLink>
     </div>
   )
 }
